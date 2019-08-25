@@ -1,0 +1,13 @@
+{
+    "name": "Quick Note",
+    "short_name": "Quick Note",
+    "icons": [
+        {
+          "src": "notepad-icon.png",
+        }
+      ],
+      "start_url": "/",
+      "background_color": "#0094f6",
+      "display": "fullscreen",
+      "theme_color": "#0094f6"
+}

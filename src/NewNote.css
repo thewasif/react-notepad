@@ -1,0 +1,56 @@
+.new_note_modal{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: white;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    transition: 0.1s;
+}
+.editor{
+    margin: 10px;
+    height: 60%;
+    position: absolute;
+    width: 85%;
+    left: 5%;
+}
+.btn-group{
+    position: absolute;
+    top: 70%;
+    left: 30%;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn-group > button{
+    margin: 5px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+    border: none;
+    color: white;
+    padding: 10px 16px;
+    outline: none;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-family: 'Montserrat';
+    background: #00C851;
+}
+.old_note_modal{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: white;
+    transition: 0.1s;
+    padding: -20px;
+}
+
+h1, h2, h3{
+    margin-left: 10px;
+}
+p{
+    margin-left: 10px;
+}
+ul{
+    margin-left: 10px;
+}
